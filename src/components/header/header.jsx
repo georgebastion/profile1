@@ -14,7 +14,7 @@ const Header= () =>{
                     <h5 className="text-light">FullStack Developer</h5>
                     <CTA />
                     <HeaderSocials/>
-                    <div className="me">
+                    <div className="me1">
                         <img src={ME} alt="" className="me" />
                     </div>
                     
