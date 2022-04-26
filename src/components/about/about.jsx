@@ -20,18 +20,24 @@ const About= () =>{
                     <div className="about_cards">
                         <article className="about_card">
                             <FiUsers className='about_icon'/>
-                            <h5>Clients</h5>
-                            <small>150+ WorldWide</small>
+                            <div>
+                                <h5>Clients</h5>
+                                <small>150+ WorldWide</small>
+                            </div>
                         </article>
                         <article className="about_card">
                             <FaAward className='about_icon'/>
-                            <h5>Experience</h5>
-                            <small>4+ Years Working</small>
+                            <div>
+                                <h5>Experience</h5>
+                                <small>4+ Years Working</small>
+                            </div>
                         </article>
                         <article className="about_card">
                             <BsFolderPlus className='about_icon'/>
-                            <h5>Projects</h5>
-                            <small>400+ completed</small>
+                            <div>
+                                <h5>Projects</h5>
+                                <small>400+ completed</small>
+                            </div>
                         </article>
                     </div>
                     <p>Developer Bastion</p>
