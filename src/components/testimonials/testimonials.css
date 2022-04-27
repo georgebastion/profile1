@@ -12,7 +12,12 @@
     
     border: 0.2rem solid var(--color-primary-variant);
 }
-
+.swiper-button-next{
+    color: var(--color-light);
+    width: 20%;
+    display: none;
+    
+}
 .testimonial{
     background: var(--color-bg-variant);
     text-align: center;
@@ -20,6 +25,7 @@
     margin-top: 1rem;
     border-radius: 2rem;
     user-select: none;
+    margin-bottom: 5rem;
 }
 .client_review{
     color: var(--color-light);
